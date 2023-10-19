@@ -18,3 +18,4 @@ describe('Name Function', () => {
   });
 
 });
+// Run the test
