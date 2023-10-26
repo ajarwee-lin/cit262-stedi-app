@@ -7,7 +7,7 @@ app.get('/api/info', (req, res) => {
   const info = {
     message: 'This is a simple Frontend API',
     version: '1.0.0'
-  });
+  };
   res.json(info);
 });
 
