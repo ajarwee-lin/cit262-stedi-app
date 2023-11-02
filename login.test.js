@@ -1,17 +1,17 @@
-const fetch = require('node-fetch');
+const fetch = require('node-fetch2');
 
 it("should get a login token", asyn()=>{
 
 
-    let loginToken="";//this is an emptry string
+    let token="";//this is an emptry string
     const options = {
         method: "POST",
         headers:{
             "Content-Type":"application/json"
         },
         body:JSON.stringify({
-            :userName":"ajarwee@gmail.com"
-            "Password":"Password@23"
+            "userName":"ajarwee@gmail.com",
+            "Password":"Password@23",
         })
     }
 
